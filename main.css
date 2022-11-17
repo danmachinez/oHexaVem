@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 { 
+    font-family: 'Changa', sans-serif;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    padding: 16px;
+    background-color: #009c3b;
+    color: #ffdf00;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #ffdf00;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
